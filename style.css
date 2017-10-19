@@ -1,0 +1,48 @@
+body{
+	font-family: 'Indie Flower', cursive;
+}
+
+ul{
+	/*outline: 1px solid orange; /*encerrar con una linea la lista*/
+	list-style: none; /*saca las viñetas de la lista */
+	margin: 0;
+	padding: 0;
+	width: 200;
+	line-height: 30px;
+}
+
+nav{
+	width: 200px;
+}
+
+li{
+	background-color: #E8E8E8;
+}
+ /* Estados de los enlaces : LoVe/HAte Link Visited Hover Active */
+a{
+	display:block; /*para poder editar los enlaces*/
+	text-decoration: none;/*sacar la linea del link*/
+	color: black;
+	padding-left: 12px;
+}
+
+a:hover{
+	background-color: #CCCCCC;
+}
+
+a:active{
+	background-color: #A8A8A8;
+	color:white;
+}
+
+ul li:first-child{
+	background-color: orange;
+}
+
+ul li:first-child a:hover{
+	color: white;
+}
+
+ul li:first-child a:active{
+	color: white;
+}
